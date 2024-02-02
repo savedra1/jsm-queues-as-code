@@ -41,7 +41,7 @@ In order to set this up for yourself, you will need the following:
 ## Usage instructions
 1. Create your remote Github repository that will be used to version control your queue logic. 
 
-2. In your new remote repo, create an environment called `prod` and make sure your main branch is renamed to `main` if it isn't already.
+2. In your new remote repo, create an environment called `prod` and make sure your default branch is renamed to `main` if it isn't already.
 
 3. Add the following repo secrets _(strings)_ to your `prod` environment: 
 - `AWS_ACCESS_KEY_ID`: The access key for your AWS CLI user
